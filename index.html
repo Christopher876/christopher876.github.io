@@ -17,63 +17,146 @@
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            //$("#footer").load("footer.html"); 
+        });
+    </script>
+
 </head>
 
-<body style="background-color: #F0EDE5; font-family: 'Open Sans', sans-serif;">
-    <header>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark primary-color scrolling-navbar">
+<body>
+    <header id="header"></header>
 
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">Christopher Williams</a>
-
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <!-- Links -->
-
-                <form class="form-inline">
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </div>
-                </form>
+    <div class="jumbotron card card-image"
+        style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+        <div class="text-white text-center py-5 px-4">
+            <div>
+                <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+                        MDBootstrap</strong></h2>
+                <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                    laboriosam, voluptatem,
+                    optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit
+                    sed qui, dolorum!
+                </p>
+                <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
             </div>
-            <!-- Collapsible content -->
-        </nav>
-        <!--/.Navbar-->
-    </header>
+        </div>
+    </div>
 
-    <div class=".d-none d-lg-block">
+    <!--Carousel Wrapper-->
+    <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+            <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!-- First slide -->
+            <div class="carousel-item active">
+                <!--Mask color-->
+                <div class="view">
+                    <!--Video source-->
+                    <video class="video-fluid" autoplay loop muted height="480">
+                        <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+                    </video>
+                    <div class="mask rgba-indigo-light"></div>
+                </div>
+
+                <!--Caption-->
+                <div class="carousel-caption">
+                    <div class="animated fadeInDown">
+                        <h3 class="h3-responsive">Light mask</h3>
+                        <p>First text</p>
+                    </div>
+                </div>
+                <!--Caption-->
+            </div>
+            <!-- /.First slide -->
+
+            <!-- Second slide -->
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <!--Video source-->
+                    <video class="video-fluid" autoplay loop muted height="480">
+                        <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+                    </video>
+                    <div class="mask rgba-purple-slight"></div>
+                </div>
+
+                <!--Caption-->
+                <div class="carousel-caption">
+                    <div class="animated fadeInDown">
+                        <h3 class="h3-responsive">Super light mask</h3>
+                        <p>Secondary text</p>
+                    </div>
+                </div>
+                <!--Caption-->
+            </div>
+            <!-- /.Second slide -->
+
+            <!-- Third slide -->
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <!--Video source-->
+                    <video class="video-fluid" autoplay loop muted height="480">
+                        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+                    </video>
+                    <div class="mask rgba-black-strong"></div>
+                </div>
+
+                <!--Caption-->
+                <div class="carousel-caption">
+                    <div class="animated fadeInDown">
+                        <h3 class="h3-responsive">Strong mask</h3>
+                        <p>Third text</p>
+                    </div>
+                </div>
+                <!--Caption-->
+            </div>
+            <!-- /.Third slide -->
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--Carousel Wrapper-->
+
+    <!--
+    <div class="d-none d-lg-block">
         <img src="./images/forest.jpg" style="max-width:100%;" class="bg-image">
         <div class="bg-text">Hello World!</div>
         <div>
-            <img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png" class="bg-video-1">
-            <img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png" class="bg-video-2">
+            <video width="640" height="480" loop autoplay class="bg-video-1" style="filter: blur(1px);">
+                <source src="./videos/sample.mp4" type="video/mp4">
+            </video>
+            <video width="640" height="480" loop autoplay class="bg-video-2" style="filter: blur(1px);">
+                <source src="./videos/sample2.mp4" type="video/mp4">
+            </video>
+            <video width="640" height="480" loop autoplay class="bg-video-3" style="filter: blur(1px);">
+                <source src="./videos/sample3.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
+    -->
 
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
