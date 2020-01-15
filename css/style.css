@@ -64,3 +64,13 @@ body{
   padding: 20px;
   text-align: center;
 }
+
+.github-button{
+  background-image: url("../images/github_icon.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.video-50-zoom{
+  transform: scale(1.5);
+}
