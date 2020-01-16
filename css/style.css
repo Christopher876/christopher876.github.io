@@ -74,3 +74,15 @@ body{
 .video-50-zoom{
   transform: scale(1.5);
 }
+
+.jumbotron{
+  width:60%;
+  margin: 1% auto 0 auto;
+}
+
+@media (max-width:767px) {
+.jumbotron{
+    width:80%;
+    margin: 1% auto 0 auto;
+  }
+}
