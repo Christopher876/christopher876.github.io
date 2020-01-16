@@ -75,14 +75,24 @@ body{
   transform: scale(1.5);
 }
 
+/*Style for desktop and wider screen devices*/
 .jumbotron{
   width:60%;
   margin: 1% auto 0 auto;
 }
 
+.blank-space{
+  padding-bottom: 5%;
+}
+
+/*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron{
-    width:80%;
-    margin: 1% auto 0 auto;
+    width:90%;
+    margin: 3% auto 0 auto;
+  }
+
+  .blank-space{
+    padding-bottom: 15%;
   }
 }
