@@ -71,12 +71,35 @@ body{
   background-position: center;
 }
 
+.twitter-button{
+  background-image: url("../images/twitter_icon.png");
+  background-size: 90%;
+  background-position: center;
+  color:black;
+}
+
+.facebook-button{
+  background-image: url("../images/facebook_icon.png");
+  background-size: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:black;
+}
+
+.linkedin-button{
+  background-image: url("../images/linkedin_icon.png");
+  background-size: 120%;
+  background-position: right 100% bottom 45%;
+  background-repeat: no-repeat;
+  color:black;
+}
+
 .video-50-zoom{
   transform: scale(1.5);
 }
 
 /*Style for desktop and wider screen devices*/
-.jumbotron{
+.jumbotron-sized{
   width:60%;
   margin: 1% auto 0 auto;
 }
@@ -87,7 +110,7 @@ body{
 
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
-.jumbotron{
+.jumbotron-sized{
     width:90%;
     margin: 3% auto 0 auto;
   }
