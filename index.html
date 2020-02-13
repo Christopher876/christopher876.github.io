@@ -1,52 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Christopher Williams</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Your custom styles (optional) -->
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html"); 
-        });
+      $(function() {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
     </script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header id="header"></header>
 
-    <div class="jumbotron card card-image"
-        style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
-        <div class="text-white text-center py-5 px-4">
-            <div>
-                <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Hello, I'm Christopher!</strong></h2>
-                <p class="mx-5 mb-5"> I'm a programmer that enjoys all things technology. Learning new technology and tools is my specialty!
-                    
-                </p>
-                <a class="btn btn-outline-white btn-md" href="documents/christopher_resume.pdf"><i class="fas fa-clone left"></i> Resume</a>
+    <!--Carousel Wrapper-->
+    <div
+      id="carousel-example-1z"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+      data-interval="4000"
+    >
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carousel-example-1z"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="card card-image bg-image carousel-item active">
+          <div class="text-white text-center py-5 px-4">
+            <div class="bg-text">
+              <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+                <strong>Hi there! I'm Christopher!</strong>
+              </h2>
+              <p class="">
+                I'm a programmer that enjoys all things technology. Learning new
+                technologies and tools is my specialty!
+                <br />
+                New languages, servers, websites, you name it!
+              </p>
+              <a
+                class="btn btn-outline-white btn-md"
+                href="documents/christopher_resume.pdf"
+                ><i class="fas fa-clone left"></i> Resume
+              </a>
             </div>
+          </div>
         </div>
+        <!--/First slide-->
+        <!--Second slide-->
+        <div class="card card-image bg-image carousel-item">
+            <div class="text-white text-center py-5 px-4">
+                <div class="bg-text">
+                  <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+                    <strong>Showcase</strong>
+                  </h2>
+                  <p class="">
+                    Projects are the heart of 
+                    <br />
+                    New languages, servers, websites, you name it!
+                  </p>
+                  <a
+                    class="btn btn-outline-white btn-md"
+                    href="documents/christopher_resume.pdf"
+                    ><i class="fas fa-clone left"></i> Resume
+                  </a>
+                </div>
+              </div>
+        </div>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <div class="card card-image bg-image carousel-item">
+            <div class="text-white text-center py-5 px-4">
+                <div class="bg-text">
+                  <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+                    <strong>Showcase</strong>
+                  </h2>
+                  <p class="">
+                    This is going to be our second page!!!
+                    <br />
+                    New languages, servers, websites, you name it!
+                  </p>
+                  <a
+                    class="btn btn-outline-white btn-md"
+                    href="documents/christopher_resume.pdf"
+                    ><i class="fas fa-clone left"></i> Resume
+                  </a>
+                </div>
+              </div>
+        </div>
+        <!--/Third slide-->
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a
+        class="carousel-control-prev"
+        href="#carousel-example-1z"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carousel-example-1z"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
     </div>
+    <!--/.Carousel Wrapper-->
 
-    
+    <div>
+      <div class="row">
+        <div class="col-6">
+          <!-- Card -->
+          <div class="card" style="width:60%; margin: 0 auto 0 auto">
+            <!-- Card image -
+
+            <!-- Card content -->
+            <div class="card-body">
+              <!-- Title -->
+              <h4 class="card-title">Card title</h4>
+              <!-- Text -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+
+        <div class="col-6">
+          <!-- Card -->
+          <div class="card" style="width:30%">
+            <!-- Card image -->
+            <div class="view overlay">
+              <img
+                class="card-img-top"
+                src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                alt="Card image cap"
+              />
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body">
+              <!-- Title -->
+              <h4 class="card-title">Card title</h4>
+              <!-- Text -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+      </div>
+    </div>
 
     <!--
     <div class="d-none d-lg-block">
@@ -78,7 +237,5 @@
     <script type="text/javascript"></script>
 
     <footer id="footer"></footer>
-
-</body>
-
+  </body>
 </html>

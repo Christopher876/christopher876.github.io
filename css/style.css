@@ -4,36 +4,20 @@ body{
 }
 
 .bg-image {
-  /* Add the blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  background-image: url(../images/code_image.jpg); 
+  background-size: 100%; 
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 30%;
-  padding: 20px;
-  text-align: center;
-  box-shadow: black;
+  box-shadow: black; 
+  background-color: rgba(0, 0, 0, 0.35); 
+  font-weight: bold; 
+  width:50%; 
+  margin: 0 auto 0 auto
 }
+
 .bg-video-1 {
   position: absolute;
   top: 30%;
@@ -105,17 +89,30 @@ body{
 }
 
 .blank-space{
-  padding-bottom: 5%;
+  padding-bottom: 3.35%;
 }
 
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron-sized{
     width:90%;
-    margin: 3% auto 0 auto;
+    margin: 2% auto 0 auto;
   }
 
   .blank-space{
-    padding-bottom: 15%;
+    padding-bottom: 13.5%;
+  }
+
+  .bg-text {
+    box-shadow: black; 
+    background-color: rgba(0, 0, 0, 0.35); 
+    font-weight: bold; 
+    width:100%; 
+    margin: 0 auto 0 auto;
+  }
+
+  .bg-image{
+    background-size: 170%;
+    height: 22.6875rem;
   }
 }
