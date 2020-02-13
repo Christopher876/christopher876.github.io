@@ -92,6 +92,38 @@ body{
   padding-bottom: 3.35%;
 }
 
+.home-content {
+    overflow: hidden;
+    padding-bottom: 0.5%;
+    margin: 1% auto 0 5%;
+}
+
+.bootCols{
+  height:100px;
+  margin:0;
+  box-sizing:border-box;
+  padding:5px;
+  border:2px solid black;
+  background-color:red;
+}
+
+/*HOME*/
+.about-me{
+  width:150%; 
+  margin: 0 auto 0 auto;
+}
+
+.technical-skills{
+  width:50%; 
+  margin-left: 50%;
+}
+
+.progress-caption{
+  font-size: 14px; 
+  font-weight: 500; 
+  margin-top: 1%;
+}
+
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron-sized{
@@ -115,4 +147,22 @@ body{
     background-size: 170%;
     height: 22.6875rem;
   }
+
+  .home-content {
+    overflow: hidden;
+    padding-bottom: 0.5%;
+    margin: 1% auto 0 0;
+  }
+
+  .about-me{
+    width:100%;
+    margin-top:1%;
+  }
+
+  .technical-skills{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+
 }
