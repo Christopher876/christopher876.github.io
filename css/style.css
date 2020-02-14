@@ -132,6 +132,11 @@ body{
   margin: 0 10% 0 auto;
 }
 
+.project-cards{
+  width: 30%; 
+  margin: 1% 1% 0 1%
+}
+
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron-sized{
