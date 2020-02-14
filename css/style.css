@@ -146,6 +146,11 @@ body{
   padding: 0 0 0 10%;
 }
 
+.education-card{
+  margin: 2% 0 0 50%;
+  width:50%;
+}
+
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron-sized{
@@ -194,5 +199,10 @@ body{
 
   .social-media-buttons{
     padding: 0 0 0 5%;
+  }
+
+  .education-card{
+    margin: 2% 0 0 0;
+    width:100%;
   }
 }
