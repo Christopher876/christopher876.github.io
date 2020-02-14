@@ -51,7 +51,7 @@ body{
 
 .github-button{
   background-image: url("../images/github_icon.jpg");
-  background-size: 100%;
+  background-size: 225%;
   background-position: center;
 }
 
@@ -118,6 +118,11 @@ body{
   margin-left: 50%;
 }
 
+.social-media{
+  margin: 0 0 2% 50%;
+  width:50%;
+}
+
 .progress-caption{
   font-size: 14px; 
   font-weight: 500; 
@@ -135,6 +140,10 @@ body{
 .project-cards{
   width: 30%; 
   margin: 1% 1% 0 1%
+}
+
+.social-media-buttons{
+  padding: 0 0 0 10%;
 }
 
 /*Styling for mobile devices or landscape ipads*/
@@ -174,8 +183,16 @@ body{
 
   .technical-skills{
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 0%;
   }
 
+  .social-media{
+    margin: 2% 0 0 0;
+    width:100%;
+  }
+
+  .social-media-buttons{
+    padding: 0 0 0 5%;
+  }
 }
