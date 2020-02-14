@@ -124,6 +124,14 @@ body{
   margin-top: 1%;
 }
 
+.technical-skills-list{
+  list-style-type:none; 
+  font-size: 20px; 
+  font-weight: 700; 
+  color: #778492;
+  margin: 0 10% 0 auto;
+}
+
 /*Styling for mobile devices or landscape ipads*/
 @media (max-width:767px) {
 .jumbotron-sized{
