@@ -37,10 +37,31 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
   </head>
 
   <body>
     <header id="header"></header>
+
+    <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Site Construction</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Site under Construction!</p>
+                  <p>The new website will utilize Blazor to provide a superior experience. It will be a place for me to have a familiar .Net environment for my projects and backend work.</p>
+                <p>Some elements have been removed or no longer work because I have been slowly removing things from this website and some things have been replaced with placeholder content.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!--Carousel Wrapper-->
     <div
