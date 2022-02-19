@@ -1,0 +1,17 @@
+name: "Christopher Williams"
+nickname: "Chris"
+
+greeting: "Hi! I am"
+#image: "images/author/me.png"
+
+contactInfo:
+  email: "christopherdavidwilliams21@gmail.com"
+  linkedin: "https://www.linkedin.com/in/christopherdavidwilliams21/"
+  github: "https://www.github.com/christopher876"
+
+summary:
+  - I am a Developer
+  - I love servers
+  - Linux is my second language
+  - I love working on the backend
+  - My favorite language is C#
