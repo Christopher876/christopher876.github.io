@@ -23,6 +23,7 @@ enableEmoji: true
 
 # Site parameters
 params:
+  background: /images/site/background.jpg
   # GitHub repo URL of your site
   gitRepo: https://github.com/Christopher876/christopher876.github.io
 
