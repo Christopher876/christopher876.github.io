@@ -16,22 +16,40 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I have a very strong passion for computers and software. Throughout the years this passion has led me to learning about everything about computers. Honing my various computer skills, from managing servers on Linux to programming in C# to make libraries and video games! I just love to mess around with computers and getting work done with them. I love itching for the next big thing and then seeing that project through to completion.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/christopher876"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/christopherdavidwilliams21"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/CWilliams3891"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: Leadership
+  percentage: 75
+  color: blue
+- name: Teamwork
+  percentage: 100
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: green
+- name: Adaptability
+  percentage: 90
+  color: orange
+- name: Problem Solving
+  percentage: 90
+  color: sky
+- name: Self-Direction
   percentage: 85
   color: blue
-- name: Team Work
-  percentage: 90
-  color: yellow
